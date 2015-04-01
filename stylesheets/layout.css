@@ -1,0 +1,75 @@
+/*Large*/
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+
+
+}
+
+
+
+/*Medium*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#landing-text-1 p {
+  font-size: 16px;
+}
+
+#landing-section-2 p {
+  font-size: 16px;
+}
+
+#demo-text-1 {
+  margin: 0;
+}
+
+#demo-pic-1 img {
+  margin-left: 50%;
+}
+
+#demo-pic-2 {
+  margin-top: 15%;
+}
+
+#new-message {
+  margin-top: 10%;
+}
+
+}
+
+
+/*Small*/
+@media only screen and (max-width: 479px) {
+
+#landing-text-1 p {
+  font-size: 14px;
+}
+
+#landing-section-2 p {
+  font-size: 14px;
+}
+
+.textbox {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#landing-section-3 {
+  margin-top: 8%;
+}
+
+#demo p {
+  font-size: 16px;
+}
+
+#demo-text-1 {
+  margin: 0;
+}
+
+#new-message {
+  display: none;
+}
+
+.list ul {
+  margin-top: 15%;
+}
+
+}

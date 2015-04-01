@@ -6,6 +6,7 @@
     <title>Relay</title>
     <link rel="stylesheet" href="stylesheets/foundation.css" />
     <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/layout.css" />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
@@ -17,25 +18,25 @@
     <!-- landing -->
 <div class="blue-bg" id="landing">
   <div class="row">
-      <div class="small-3 small-centered columns">
+      <div class="large-4 large-centered small-5 small-centered columns">
         <img src="images/logo-1.png" id="logo-1">
       </div>
     <div>
     <div class="row">
-      <div class="small-8 small-centered columns" id="landing-text-1">
+      <div class="small-10 small-centered columns" id="landing-text-1">
         <p>one relay sends content</p><img src="images/dash.png" id="dash"><p>separately</p><img src="images/dash.png" id="dash"><p>to friends and family</p>
       </div>
     </div>
     <div class="row">
-      <div class="small-6 small-centered columns">
+      <div class="small-11 small-centered medium-7 medium-centered large-7 large-centered columns">
         <img src="images/iphone-home.png">
       </div>
-      <div class="small-4 small-centered columns" id="landing-section-2">
-        <p>notify me when relay is available</p>
+      <div class="small-12 small-centered large-5 large-centered columns" id="landing-section-2">
+        <img src="images/dash.png" id="dash"><p>notify me when relay is available</p><img src="images/dash.png" id="dash">
         <input type="text" placeholder="enter email" class="textbox">
        <a class="btn" href>submit</a>
       </div>
-      <div class="small-4 small-centered columns" id="landing-section-3">
+      <div class="small-8 small-centered columns" id="landing-section-3">
         <p>see how it works</p>
         <img src="images/down-arrow.png">
       </div>
@@ -46,14 +47,14 @@
 
   <div id="demo">
     <div class="row">
-      <div class="small-10 small-centered columns">
+      <div class="small-11 small-centered columns">
         <p>Most content shouldn’t be shared with the masses<br>Getting your must-share items to the right people is made easy with <span style="color:#1E4490">relay</span></p>
       </div>
-      <div class="small-6 small-centered columns" id="demo-text-1">
+      <div class="small-10 medium-10 medium-offset-1 columns" id="demo-text-1">
         <p>see how easy it is to <span style="color:#1E4490">relay</span> an article you found on the internet to a few friends and your roommates</p>
       </div>
     </div>
-      <div class="row large-6 large-offset-3 columns" id="demo-text-2">
+      <div class="row large-8 large-offset-2 columns" id="demo-text-2">
         <p>compose the message</p>
       </div>
 
@@ -61,55 +62,65 @@
 
       <!-- compose message -->
     <div class="row">
-      <div class="large-10 small-centered columns">
+      <div class="large-10 medium-12 medium centered small-centered columns">
         <div class="row">
-          <div class="large-4 columns">
-            <img src="images/demo-pic-1.png">
-          </div>
-          <div class="large-2 columns numbers">
-            <img src="images/number-1.png" id="number-1">
-            <img src="images/number-2.png" id="number-2">
-            <img src="images/number-3.png" id="number-3">
-          </div>
-          <div class="large-6 columns">
-            <div id="demo-text-3"><p>insert some text about the article</p></div>
-            <div id="demo-text-4"><p>or skip to adding the article</p></div>
-            <div id="demo-text-5"><p>add content using these buttons</p></div>
-            <div id="demo-text-4"><p>paste a link,<br> access your photo library,<br> or launch the camera</p></div>
-            <div id="demo-text-6"><p>paste the article link you copied from the web</p></div>
-          </div>
+          <div class="large-4 medium-4 columns">
+            <img src="images/demo-pic-1.png" >
         </div>
+
+        <div class="large-6 medium-6 columns list numbers">
+          <ul>
+            <li> 
+              <img src="images/new-message.png" id="new-message">
+            </li>
+            <li>
+              <img src="images/number-1.png"><div id="demo-text-3"><p>insert some text about the article</p></div>
+            </li>
+            <li>
+              <div id="demo-text-4"><p>or skip to adding the article</p></div>
+            </li>
+            <li>
+              <img src="images/number-2.png"><div id="demo-text-3"><p>add content using these buttons</p></div>
+            </li>
+            <li>
+              <div id="demo-text-4"><p>paste a link,<br> access your photo library,<br> or launch the camera</p></div>
+            </li>
+            <li>
+              <img src="images/number-3.png"><div id="demo-text-3"><p>paste the article link you copied from the web</p></div>
+            </li>
+          </ul>
+      </div>
     </div>
     </div>
 
     <!-- preview message -->
     <div class="row">
-      <div class="large-10 small-centered columns" id="preview1">
-        <div class="large-2 columns numbers">
-          <img src="images/number-4.png" id="number-4">
-          <img src="images/number-5.png" id="number-5">
-          <img src="images/number-6.png" id="number-5">
+      <div class="large-10 medium-12 columns" id="preview1">
+        <div class="large-6 medium-6 columns numbers list" id="demo-text-6">
+          <ul>
+            <li>
+              <img src="images/content.png" id="content">
+            </li>
+            <li>
+              <img src="images/number-4.png"><p>preview the article you pasted</p>
+            </li>
+            <li>
+               <img src="images/number-5.png"><p>insert more text or add more content</p>
+            </li>
+            <li>
+               <img src="images/number-6.png"><p>move ahead to choosing your contacts</p>
+            </li>
+          </ul>
         </div>
-        <div class="large-6 columns">
-          <div id="demo-text-7">
-            <p>preview the article you pasted</p>
-           </div>
-           <div id="demo-text-8">
-             <p>insert more text or add more content</p>
-           </div>
-            <div id="demo-text-9">
-             <p>move ahead to choosing your contacts</p>
-           </div>
-        </div>
-        <div class="large-4 columns">
-          <img src="images/demo-pic-2.png">
+        <div class="large-4 medium-4 columns">
+          <img src="images/demo-pic-2.png" id="demo-pic-2">
         </div>
       </div>
     </div>
    </div>
 
    <!-- select contacts -->
-   <div class="row large-6 large-offset-3 columns"   id="demo-text-2">
+   <div class="row large-8 large-offset-2 columns"   id="demo-text-2">
         <p>choose contacts</p>
    </div>
    <div class="row">
@@ -118,38 +129,32 @@
           <div class="large-4 columns">
             <img src="images/demo-pic-3.png">
           </div>
-          <div class="large-2 columns numbers">
-            <img src="images/number-7.png" id="number-4">
-            <img src="images/number-8.png" id="number-6">
-          </div>
-          <div class="large-6 columns">
-            <div id="demo-text-7"><p>select your contacts</p></div>
-            <div id="demo-text-4"><p>you can send this to individuals and groups you create</p></div>
-            <div id="demo-text-10"><p>now just tap here to relay the message</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- relay message -->
-    <div class="row">
-      <div class="large-10 small-centered columns" id="preview1">
-        <div class="large-2 columns numbers">
-        </div>
-        <div class="large-6 columns">
-          <div id="demo-text-7">
-            <p>that's it! your content is sent separately to your friends and groups</p>
-           </div>
-           <div id="demo-text-4">
-             <p>any replies will only come to you or within a group</p>
-           </div>
-        </div>
-        <div class="large-4 columns" id="pic-4">
-          <img src="images/demo-pic-4.png">
+          <div class="large-6 columns list">
+           <img src="images/contacts.png" id="contacts">
+           <ul class="numbers">
+             <li>
+              <img src="images/number-7.png"><div id="demo-text-3"><p>select your contacts</p></div>
+             </li>
+             <li>
+              <div id="demo-text-4"><p>you can send this to individuals and groups you create</p></div>
+             </li>
+             <li>
+              <img src="images/number-8.png">
+              <div id="demo-text-3"><p>now just tap here to relay the message</p></div>
+            </li>
+            <li>
+              <div id="demo-text-7"><p>that's it! your content is sent separately to your friends and groups</p></div>
+            </li>
+            <li>
+              <div id="demo-text-8">
+              <p>any replies will only come to you or within a group</p></div>
+            </li>
+          </ul>
+          </div>
         </div>
       </div>
     </div>
-   </div>
 
    <!--  end of relay-example -->
     </div>
