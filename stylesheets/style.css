@@ -38,6 +38,14 @@ body {
   font-size: 14px;
 }
 
+#landing-text-4 {
+  margin-top: 5%;
+}
+
+#landing-text-4 p {
+  font-size: 13px;
+}
+
 #bottom-margin {
   margin-bottom: 15%;
 }
